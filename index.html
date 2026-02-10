@@ -88,6 +88,28 @@
             color: #22d3ee;
             font-size: 0.95rem;
         }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        footer span {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+
+            th, td {
+                padding: 10px;
+                font-size: 0.9rem;
+            }
+        }
 </head>
 <body>
     <div class="container">
@@ -114,7 +136,7 @@
                     <td>Check changed or new files</td>
                 </tr>
                 <tr>
-                    <td><code>git add .</code></td>
+                    <td><code>git add . </code></td>
                     <td>Add all files to staging area</td>
                 </tr>
                 <tr>
@@ -143,6 +165,10 @@
                 </tr>
             </tbody>
         </table>
+    </div>
+    <footer>
+        Created by <span>Mayur Kolhe</span>
+    </footer>
     </div>
 </body>
 </html>
