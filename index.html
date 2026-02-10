@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn-With-Mayur</title>
-     <style>
+    <style>
         :root {
             --bg: #0f172a;
             --card: #020617;
@@ -21,7 +22,7 @@
 
         body {
             margin: 0;
-            background: linear-gradient(120deg, #020617, #020617);
+            background: linear-gradient(120deg, #707bad, #4a61c7);
             color: var(--text);
             padding: 30px;
         }
@@ -48,7 +49,7 @@
             border: 1px solid var(--border);
             border-radius: 12px;
             padding: 25px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
         }
 
         h2 {
@@ -65,7 +66,8 @@
             margin-top: 15px;
         }
 
-        th, td {
+        th,
+        td {
             padding: 14px 16px;
             text-align: left;
             border-bottom: 1px solid var(--border);
@@ -88,6 +90,7 @@
             color: #22d3ee;
             font-size: 0.95rem;
         }
+
         footer {
             text-align: center;
             margin-top: 40px;
@@ -105,70 +108,74 @@
                 padding: 15px;
             }
 
-            th, td {
+            th,
+            td {
                 padding: 10px;
                 font-size: 0.9rem;
             }
         }
+    </style>
 </head>
+
 <body>
     <div class="container">
-    <h1>📘 Git Notes</h1>
-    <p class="subtitle">Basic & Common Git Commands – Easy to Revise</p>
+        <h1>📘 Git Notes</h1>
+        <p class="subtitle">Basic & Common Git Commands – Easy to Revise</p>
 
-    <div class="card">
-        <h2>🎯 Common Git Commands</h2>
+        <div class="card">
+            <h2>🎯 Common Git Commands</h2>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Command</th>
-                    <th>What It Does</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><code>git init</code></td>
-                    <td>Initialize a new Git repository (only once)</td>
-                </tr>
-                <tr>
-                    <td><code>git status</code></td>
-                    <td>Check changed or new files</td>
-                </tr>
-                <tr>
-                    <td><code>git add . </code></td>
-                    <td>Add all files to staging area</td>
-                </tr>
-                <tr>
-                    <td><code>git commit -m "message"</code></td>
-                    <td>Save changes with a commit message</td>
-                </tr>
-                <tr>
-                    <td><code>git remote add origin &lt;url&gt;</code></td>
-                    <td>Connect local repo to GitHub</td>
-                </tr>
-                <tr>
-                    <td><code>git branch -M main</code></td>
-                    <td>Rename branch to main</td>
-                </tr>
-                <tr>
-                    <td><code>git push -u origin main</code></td>
-                    <td>Push code to GitHub</td>
-                </tr>
-                <tr>
-                    <td><code>git pull</code></td>
-                    <td>Fetch latest updates</td>
-                </tr>
-                <tr>
-                    <td><code>git log</code></td>
-                    <td>View commit history</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <footer>
-        Created by <span>Mayur Kolhe</span>
-    </footer>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>What It Does</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>git init</code></td>
+                        <td>Initialize a new Git repository (only once)</td>
+                    </tr>
+                    <tr>
+                        <td><code>git status</code></td>
+                        <td>Check changed or new files</td>
+                    </tr>
+                    <tr>
+                        <td><code>git add . </code></td>
+                        <td>Add all files to staging area</td>
+                    </tr>
+                    <tr>
+                        <td><code>git commit -m "message"</code></td>
+                        <td>Save changes with a commit message</td>
+                    </tr>
+                    <tr>
+                        <td><code>git remote add origin &lt;url&gt;</code></td>
+                        <td>Connect local repo to GitHub</td>
+                    </tr>
+                    <tr>
+                        <td><code>git branch -M main</code></td>
+                        <td>Rename branch to main</td>
+                    </tr>
+                    <tr>
+                        <td><code>git push -u origin main</code></td>
+                        <td>Push code to GitHub</td>
+                    </tr>
+                    <tr>
+                        <td><code>git pull</code></td>
+                        <td>Fetch latest updates</td>
+                    </tr>
+                    <tr>
+                        <td><code>git log</code></td>
+                        <td>View commit history</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            Created by <span>Mayur Kolhe</span>
+        </footer>
     </div>
 </body>
+
 </html>
